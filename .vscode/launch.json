@@ -1,0 +1,52 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "args": [],
+      "cwd": "${workspaceFolder:img2bin-swift}",
+      "name": "Debug img2bin-swift",
+      "program": "${workspaceFolder:img2bin-swift}/.build/debug/img2bin-swift",
+      "preLaunchTask": "swift: Build Debug img2bin-swift"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "args": [],
+      "cwd": "${workspaceFolder:img2bin-swift}",
+      "name": "Release img2bin-swift",
+      "program": "${workspaceFolder:img2bin-swift}/.build/release/img2bin-swift",
+      "preLaunchTask": "swift: Build Release img2bin-swift"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "args": [],
+      "cwd": "${workspaceFolder:img2bin-swift}",
+      "name": "Debug img2bin",
+      "program": "${workspaceFolder:img2bin-swift}/.build/debug/img2bin",
+      "preLaunchTask": "swift: Build Debug img2bin"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "args": [],
+      "cwd": "${workspaceFolder:img2bin-swift}",
+      "name": "Release img2bin",
+      "program": "${workspaceFolder:img2bin-swift}/.build/release/img2bin",
+      "preLaunchTask": "swift: Build Release img2bin"
+    }
+  ]
+}
